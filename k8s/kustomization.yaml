@@ -8,3 +8,7 @@ commonLabels:
   app: sanardi-express-sample-app
   app.kubernetes.io/instance: sanardi-express-sample-app-instance
   app.kubernetes.io/name: sanardi-express-sample-app
+images:
+- name: quay.io/upslopeio/express-sample-app
+  newName: quay.io/sanardibla/express-sample-app
+  newTag: 7bdd3e641b20e093717bd2e31ac0f3bfbcc0d26d
